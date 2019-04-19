@@ -9,8 +9,8 @@
 <body>
     <form action="/">
     <p>
-        <label>Phone
-            <input type="number" name="phone"  required>
+        <label>Name
+            <input type="text" name="Name" required>
         </label>
     </p>
 
@@ -25,35 +25,42 @@
                 </label>
             </p>
             <p>
-                    <label>Confirm Password
-                        <input type="password" name="confpassword" required>
+                    <label>Date
+                        <input type="date" name="date" required>
                     </label>
                 </p>
                 <p>
-                        <label>Nickname
-                            <input type="text" name="Nickname" required>
+                        <label>Time
+                            <input type="time" name="Time" required>
                         </label>
                     </p>
                     <p>
-                            <label>Habitual Residence
-                                <select name="select" id="select" >
-                                    <option  value="zheijan">zheijan</option>
-                                    <option value="tbilis">tbilis</option>
-                                    <option value="batumi">batumi</option>
-                                </select>
-                            </label>
-                        </p>
-                        <p>
-                            <label >Website
-                                <input type="text" name="Website" placeholder="website" required>
-                            </label>
-                        </p>
+                        <label >Color
+
                         
-                        <input type="checkbox" name="check" ><label for="check"> I Have read the <a href="https://google.com">agreement</a></label>
-                    <p>
-                        <input type="submit"  value="Register">
+                        <input type="color" name="color" required>
+                    </label>
                     </p>
-                    
+                    <p>
+                        <label >Range
+                            <input type="range" name="Range" required >
+                        </label>
+                    </p>
+                    <p>
+                        <label>Description
+                            <textarea name="description" id="" cols="40" rows="5" required></textarea>
+                        </label>
+                    </p>
+                   
+                    <p>
+                        <input type="submit"  value="Submit">
+                        <input type="reset" value="cancel" >
+                    </p>
+
+
+
+                   
+
     
     </form>
     
