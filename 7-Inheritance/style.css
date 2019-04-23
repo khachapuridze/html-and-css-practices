@@ -1,0 +1,21 @@
+.btn{
+    height: 32px;
+    border-radius: 8px;
+    width:100px;
+}
+.primary{
+    background-color:blue;
+    color:white;
+}
+.default{
+    background-color: white;
+    
+}
+.dashed{
+    border-style: dotted;
+    background-color: white;
+}
+.danger{
+    color:red;
+    background: #999;
+}
