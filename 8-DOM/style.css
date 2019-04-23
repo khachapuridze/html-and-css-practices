@@ -1,0 +1,26 @@
+h1{
+    font-weight: 600;
+}
+.articles .items{
+    display: inline-block;
+}
+.items a{
+    text-decoration: none;
+    color:gainsboro;
+}
+.items{
+    border: 1px solid gainsboro;
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+}
+.items img{
+    height: 300px;
+    width: 300px;
+}
+.items p{
+    font-weight: bold;
+}
+.items p{
+    text-align: center;
+}
