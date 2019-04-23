@@ -1,0 +1,40 @@
+body {
+    background-color: blanchedalmond;
+}
+section img{
+    width: 400px;
+}
+header h1 {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+section h2 a {
+    text-decoration: none;
+    color: #999;
+}
+
+#cars:hover {
+    color: blue;
+}
+
+#dogs:hover {
+    color: red;
+}
+
+#cats:hover {
+    color: aqua;
+}
+
+.first-article {
+    text-align: center;
+    padding: 20px;
+}
+
+.last-article img {
+    width: 350px;
+}
