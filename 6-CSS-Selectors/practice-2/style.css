@@ -1,0 +1,38 @@
+body{
+    background-color:#999;
+}
+nav p{
+    color:red;
+}
+header h1{
+    text-align: center;
+}
+#first-article{
+    width:600px;
+    
+}
+#first-article a{
+    text-decoration: none;
+    font-size:25px;
+    color:goldenrod;
+    text-align: center;
+
+}
+.second-article{
+    width:600px;
+}
+.second-article a{
+    text-decoration: none;
+    font-size:25px;
+    color:goldenrod;
+    text-align: center;
+}
+.apps a:hover{
+    color:green;
+
+}
+.apps a{
+    text-decoration: none;
+    font-size: 20px;
+    color:yellow;
+}
