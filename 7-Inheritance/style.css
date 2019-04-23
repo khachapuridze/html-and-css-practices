@@ -3,19 +3,30 @@
     border-radius: 8px;
     width:100px;
 }
-.primary{
+.btn.primary{
     background-color:blue;
     color:white;
 }
-.default{
+.btn.default{
     background-color: white;
     
 }
-.dashed{
+.btn.dashed{
     border-style: dotted;
     background-color: white;
 }
-.danger{
+.btn.danger{
     color:red;
     background: #999;
+}
+.large{
+    width:180px;
+    height: 40px;
+    font-size: 25px;
+}
+.small{
+    width:80px;
+    height: 20px;
+    font-size:10px; 
+    
 }
