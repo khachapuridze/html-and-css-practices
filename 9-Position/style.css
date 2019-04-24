@@ -1,61 +1,64 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.background img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: 0.6;
-    top:0;
-    left:0;
-    
-    
-}
 
-.container{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-75%);
-    background-color: white;
-    width: 450px;
-    height: 200px;
-    line-height: 35px;
-    border-radius: 15px;
-    
-    padding: 4px;
-
-    
-
+.main{
+    z-index: ;
 }
-.container .header a{
-    position: absolute;
-    top:15px;
-    right: 10px;
-    text-decoration: none;
-    color:gray;
-}
-.container .header h1{
-    font-size: 30px;
-}
-
-.main-text{
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
-}
-.container .buttons{
-    position:absolute;
-    bottom: 5px;
-    right: 5px;
-}
-.container .cancel{
-    background-color:white;
-    color: gray;
-    padding: 5px;
-} 
-.container .ok{
-    background-color: blue;
+.header {
     color:white;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 100px;
+    padding-left: 25px;
+    line-height: 40px;
+    position: absolute;
+    top:5%;
+}
+.header .he{
+    color:rgb(104, 0, 0);
+    width: 35px;
+    height: 15px;
+    background-color: white;
+    
+}
+.header p{
+    width: 440px;
+    padding-left: 15px;
+}
+.left-row a{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    padding:8px;
+    background-color: white;
+    font-size: 30px;
+    top: 50%;
+    left: 35px;
+    transform: translate(-50%,50%);
+    font-size: 50px;
+}
+.right-row a{
+    text-decoration: none;
+    color:black;
+    padding:8px;
+    background-color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(-50%,50%);
+    font-size: 50px;
+
+}
+.sport{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    
+}
+.sport h1{
+    color:white;
+    width: 150px;
     padding: 5px;
-    width: 60px;
+    background-color: coral;
+    font-size: 50px;
 }
