@@ -1,0 +1,50 @@
+.article img,p{
+  display: inline-block;
+}
+.container{
+  width: 350px;
+  height:130px;
+  border: 1px solid rgb(175, 172, 172);
+ 
+  padding: 20px 0 20px 20px;
+}
+.article p{
+  line-height: 4px;
+  
+}
+.title{
+  font-size: 20px;
+}
+
+.avatar img{
+  border-radius: 50%;
+  width: 40px;
+}
+.icons img{
+  width: 20px;
+  padding-top:15px;
+}
+.right{
+  padding-left:100px;
+}
+.container2{
+  width: 350px;
+  height:150px;
+  border: 1px solid rgb(175, 172, 172);
+ 
+  padding: 10px 0 10px 20px;
+}
+.icons img{
+  padding-right: 8px;
+}
+.main-container{
+  display:inline-block;
+  padding-right: 15px;
+}
+.text{
+  display: inline-block;
+  
+}
+.text p{
+  margin:0;
+}
