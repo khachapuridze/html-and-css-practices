@@ -11,18 +11,51 @@ body{
     
     
 }
-.text h1{
-    z-index: 2;
-    color:white;
-   
-    
-}
-.text{
+
+.container{
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
-    font-size: 45px;
+    transform: translate(-50%,-75%);
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    line-height: 35px;
+    border-radius: 15px;
+    
+    padding: 4px;
+
     
 
+}
+.container .header a{
+    position: absolute;
+    top:15px;
+    right: 10px;
+    text-decoration: none;
+    color:gray;
+}
+.container .header h1{
+    font-size: 30px;
+}
+
+.main-text{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.container .buttons{
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.container .cancel{
+    background-color:white;
+    color: gray;
+    padding: 5px;
+} 
+.container .ok{
+    background-color: blue;
+    color:white;
+    padding: 5px;
+    width: 60px;
 }
