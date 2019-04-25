@@ -1,0 +1,78 @@
+main {
+    width: 486px;
+    margin: auto;
+    height: 600px;
+}
+
+.red {
+    background: red;
+    width: 300px;
+    height: 370px;
+}
+
+.white {
+    background: whitesmoke;
+    border: 3px solid black;
+    width: 180px;
+    height: 180px;
+}
+
+.blue {
+    background: blue;
+    height: 180px;
+    width: 180px;
+}
+
+.yellow {
+    background: yellow;
+    height: 50px;
+    width: 50px;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
+.row-2{
+    clear: both;
+}
+.bottom-left{
+    float: left;
+}
+.bottom-center{
+    float: right;
+}
+.col-7{
+    background-color: aquamarine;
+    border: 3px solid black;
+    height: 80px;
+    width: 100px;
+    float: right;
+}
+.bottom-right{
+    float: right;
+    height: 200px;
+}
+.col-8{
+    height: 100px;
+    background: red;
+    clear: both;
+    width:106px ;
+}
+.col-5{
+    display: inline-block;
+    background:yellow;
+    height: 180px;
+    width: 200px;
+}
+.col-8{
+    float: right;
+    margin-bottom: 40px;
+    
+}
+.left{
+    float: right;
+}
