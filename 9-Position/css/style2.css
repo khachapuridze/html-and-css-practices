@@ -1,64 +1,69 @@
-
-.main{
-    z-index: ;
-}
-.header {
+body{
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url("../5WorkoutTipsForBeginners_en2992f48d200b576cd14adf42e6084320.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+  }
+  
+  .header {
     color:white;
     font-weight: 700;
     font-size: 35px;
-    padding-top: 100px;
+    
     padding-left: 25px;
-    line-height: 40px;
+    
     position: absolute;
     top:5%;
-}
-.header .he{
+  }
+  span.he{
     color:rgb(104, 0, 0);
-    width: 35px;
+    width: 45px;
     height: 15px;
     background-color: white;
+    text-align: right;
     
-}
-.header p{
+    
+  }
+  .header p{
     width: 440px;
     padding-left: 15px;
-}
-.left-row a{
+  
+  }
+  .header h1{
+    padding-top: 70px;
+    font-size: 100px;
+    height: 45px;
+  }
+  .left-row a{
     position: absolute;
     text-decoration: none;
     color:black;
-    padding:8px;
+    padding:4px;
     background-color: white;
     font-size: 30px;
     top: 50%;
     left: 35px;
     transform: translate(-50%,50%);
     font-size: 50px;
-}
-.right-row a{
-    text-decoration: none;
-    color:black;
-    padding:8px;
-    background-color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translate(-50%,50%);
-    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+  }
 
-}
-.sport{
+  .sport{
     position: absolute;
     bottom: 25px;
     left: 50%;
     transform: translate(-50%,50%);
     
-}
-.sport h1{
+  }
+  .sport h1{
     color:white;
-    width: 150px;
+    width: 160px;
     padding: 5px;
     background-color: coral;
     font-size: 50px;
-}
+  }
