@@ -1,0 +1,63 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    min-height: 10px;
+    margin: 5px;
+    background: green;
+}
+.cell {
+    flex-grow: 1;
+}
+.cell-1{
+    height: 50px;
+    width: 50px;
+    background: green;
+    margin-bottom: 5px;
+}
+.cell-2{
+    height: 80px;
+    width: 50px;
+    background: green;
+}
+.col-1 {
+    flex-grow: 1;
+}
+
+.col-3 {
+    flex-grow: 3;
+}
+.col-4{
+    width: 50px;
+    height: 60px;
+}
+.col-2{
+    width: 180px;
+    height: 60px;
+}
+.col-5 .cell{
+    width: 25px;
+    
+    height: 25px;
+
+}
+
+.row-x{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
