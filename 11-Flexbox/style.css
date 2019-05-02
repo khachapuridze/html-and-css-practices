@@ -15,14 +15,12 @@
     flex-direction: column;
 }
 
-.cell {
-    min-height: 10px;
+.cell{
+    
     margin: 5px;
     background: green;
 }
-.cell {
-    flex-grow: 1;
-}
+
 
 .col-1 {
     width:150px;
